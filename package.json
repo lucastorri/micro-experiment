@@ -1,0 +1,21 @@
+{
+  "name": "yarn-micro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "micro": "^7.3.3",
+    "micro-compress": "^1.0.0",
+    "micro-cors": "^0.0.4",
+    "micro-visualize": "^3.0.1",
+    "microrouter": "^2.1.0"
+  },
+  "scripts": {
+    "lint": "xo",
+    "format": "xo --fix"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
