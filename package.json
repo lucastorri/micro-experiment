@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "format": "xo --fix",
+    "lint": "xo",
+    "test": "xo && nyc ava --verbose"
+  },
   "dependencies": {
     "micro": "^7.3.3",
     "micro-compress": "^1.0.0",
@@ -11,11 +15,10 @@
     "micro-visualize": "^3.0.1",
     "microrouter": "^2.1.0"
   },
-  "scripts": {
-    "lint": "xo",
-    "format": "xo --fix"
-  },
   "devDependencies": {
+    "ava": "^0.19.1",
+    "nyc": "^10.3.2",
+    "supertest": "^3.0.0",
     "xo": "^0.18.2"
   }
 }
